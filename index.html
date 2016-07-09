@@ -14,35 +14,7 @@
      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.min.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
-      <script src="http://w.soundcloud.com/player/api.js"></script>
-<link href="JQ/jquery.min.js" rel="stylesheet">
-
-    <script  type="text/javascript" >
-
-      //play button
-      function Play(){
-var widget = SC.Widget(document.getElementById('track'));
-          //play sound
-       widget.play();
-
-       //Scroll to player
-       $('html, body').animate({
-         scrollTop: $("#musicPlayer").offset().top
-     }, 1000);
-     };
-
-</script>
-<script type="text/javascript">
-
-   function sendLink(link){
-     var widget = SC.Widget(document.getElementById('track'));
-     widget.load(link, {
-               show_artwork: true
-             });
-   }
- </script>
 
   </head>
 
@@ -175,6 +147,34 @@ var widget = SC.Widget(document.getElementById('track'));
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="JS/jquery.js"></script>
     <script src="JS/bootstrap.js"></script>
-    <script src="https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+      <script src="http://w.soundcloud.com/player/api.js"></script>
+<link href="JQ/jquery.min.js" rel="stylesheet">
+
+    <script  type="text/javascript" >
+
+      //play button
+      function Play(){
+var widget = SC.Widget(document.getElementById('track'));
+          //play sound
+       widget.play();
+
+       //Scroll to player
+       $('html, body').animate({
+         scrollTop: $("#musicPlayer").offset().top
+     }, 1000);
+     };
+
+</script>
+<script type="text/javascript">
+
+   function sendLink(link){
+     var widget = SC.Widget(document.getElementById('track'));
+     widget.load(link, {
+               show_artwork: true
+             });
+   }
+ </script>
   </body>
 </html>
